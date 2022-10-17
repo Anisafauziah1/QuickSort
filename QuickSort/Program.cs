@@ -115,7 +115,7 @@ namespace QuickSort
                 Console.WriteLine(arr[j]);
             }
             Console.WriteLine("\nNumber of comparisons: ", cmp_count);
-            Console.WriteLine("\nNumber of data movements: " + mov_count);
+            Console.WriteLine("\nNumber of data movemenets: " + mov_count);
         }
         int getSize()
         {
@@ -132,7 +132,9 @@ namespace QuickSort
             myList.q_sort(0, myList.getSize() - 1);
             //Display sorted array
             myList.display();
-
+            // to exit from the console
+            Console.WriteLine("\n\nPress Enter to exit. ");
+            Console.Read();
         }
     }
 }
