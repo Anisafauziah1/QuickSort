@@ -44,11 +44,11 @@ namespace QuickSort
         //swaps the elements at index x with the element at index y
         void swap(int x, int y)
         {
-             int temp;
+            int temp;
 
-             temp = arr[x];
-             arr[x] = arr[y];
-             arr[y] = temp;
+            temp = arr[x];
+            arr[x] = arr[y];
+            arr[y] = temp;
         }
         public void q_sort(int low, int high)
         {
@@ -93,3 +93,7 @@ namespace QuickSort
         }
     }
 }
+                
+            
+        
+    
