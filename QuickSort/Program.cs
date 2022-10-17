@@ -84,7 +84,6 @@ namespace QuickSort
                 cmp_count++;
 
                 if (i < j) //if the greater element is on the left of the element
-            }
              
         }
     }
