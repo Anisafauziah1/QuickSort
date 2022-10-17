@@ -128,6 +128,7 @@ namespace QuickSort
             //Acept array elements
             myList.read();
             //Calling the sorting function
+            //Frist call to Quick sort Alogarithm
         }
     }
 }
