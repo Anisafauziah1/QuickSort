@@ -88,6 +88,8 @@ namespace QuickSort
                     //swap the element at index i whit the element at index j
                     swap(i, j);
                     mov_count++;
+                }
+            }
         }
     }
 }
