@@ -1,6 +1,8 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,15 +42,25 @@ namespace QuickSort
                 string s1 = Console.ReadLine();
                 arr[i] = Int32.Parse(s1);
             }
-            //swaps the elements at index x with the element at index y
+        }
+        //swaps the elements at index x with the element at index y
 
-            void swap(int x, int y)
-            {
-                int temp;
+        void swap(int x, int y)
+        {
+             int temp;
 
-                temp = arr[x];
-                arr[x] = arr[y];
-                arr[y] = temp;
+             temp = arr[x];
+             arr[x] = arr[y];
+             arr[y] = temp;
+        }
+
+        void q_sort(int low, int high)
+        {
+            int pivot, i, j;
+            if (low > high)
+                return;
+
+            //Partition the list into two parts:
             }
         }
     }
